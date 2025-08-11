@@ -1,0 +1,11 @@
+id,name,age,gender,location,income,disease
+1,Person1,25,M,Mumbai,50000,None
+2,Person2,30,F,Delhi,60000,Diabetes
+3,Person3,35,M,Bangalore,70000,None
+4,Person4,28,F,Mumbai,55000,Hypertension
+5,Person5,45,M,Chennai,80000,Diabetes
+6,Person6,32,F,Delhi,65000,None
+7,Person7,29,M,Mumbai,58000,None
+8,Person8,38,F,Bangalore,75000,Diabetes
+9,Person9,42,M,Chennai,85000,Hypertension
+10,Person10,27,F,Delhi,52000,None

@@ -1,0 +1,27 @@
+# Basic Settings
+data_settings:
+  input_file: "data/sample_data.csv"
+  ground_truth_file: "data/ground_truth.csv"
+  output_file: "data/protected_data.csv"
+
+# Privacy Methods
+privacy:
+  k_anonymity:
+    enabled: true
+    k_value: 5
+  differential_privacy:
+    enabled: true
+    epsilon: 1.0
+  synthetic_data:
+    enabled: false
+    num_records: 1000
+
+# Risk Assessment
+risk_settings:
+  quasi_identifiers: ["age", "gender", "location"]
+  sensitive_attributes: ["income", "disease"]
+
+# Output Settings
+output:
+  report_format: "html"
+  show_plots: true
